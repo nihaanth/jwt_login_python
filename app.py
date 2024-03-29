@@ -8,7 +8,7 @@ from flask import redirect, flash,url_for
 
 app = Flask(__name__)
 
-# Configure MongoDB connection
+
 app.config['MONGO_URI'] = 'mongodb://localhost:27017/users_db'
 mongo = PyMongo(app)
 

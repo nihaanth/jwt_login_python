@@ -40,3 +40,4 @@ http://localhost:5000
 - PyMongo
 - JWT
 - Bcrypt
+- database - MangoDB
